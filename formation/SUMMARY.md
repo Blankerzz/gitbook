@@ -30,4 +30,6 @@
     * [Pickle Code Execution - Python](pentesterlab/pickle-code-execution-python.md)
   * [JSON WEB TOKEN (JWT)](pentesterlab/json-web-token-jwt/README.md)
     * [JWT - Weak Signature](pentesterlab/json-web-token.md)
-* [HackTheBox](hackthebox.md)
+* [HackTheBox](hackthebox/README.md)
+  * [Machines](hackthebox/machines/README.md)
+    * [Precious](hackthebox/machines/precious.md)
