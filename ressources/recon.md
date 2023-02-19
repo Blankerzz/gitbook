@@ -4,6 +4,8 @@ description: A déblayer
 
 # 🔭 Recon
 
+{% embed url="https://book.hacktricks.xyz/generic-methodologies-and-resources/pentesting-methodology" %}
+
 {% embed url="https://gowthams.gitbook.io/bughunter-handbook/list-of-vulnerabilities-bugs/recon-and-osint/recon" %}
 
 {% embed url="https://0xpatrik.com/asset-discovery/?source=post_page---------------------------" %}
