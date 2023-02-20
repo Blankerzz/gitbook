@@ -6,7 +6,7 @@ description: 'Objectif : Avoir la plus grande surface d''attaque'
 
 Ecrire ici la methodo Etape par Etape.
 
-
+{% embed url="https://book.hacktricks.xyz/generic-methodologies-and-resources/pentesting-methodology" %}
 
 
 
