@@ -31,5 +31,7 @@
   * [JSON WEB TOKEN (JWT)](pentesterlab/json-web-token-jwt/README.md)
     * [JWT - Weak Signature](pentesterlab/json-web-token.md)
 * [HackTheBox](hackthebox/README.md)
+  * [HyperText Transfer Protocol (HTTP)](hackthebox/hypertext-transfer-protocol-http/README.md)
+    * [cURL Cheat Sheet](hackthebox/hypertext-transfer-protocol-http/curl-cheat-sheet.md)
   * [Machines](hackthebox/machines/README.md)
     * [Precious](hackthebox/machines/precious.md)
