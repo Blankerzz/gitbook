@@ -4,5 +4,4 @@
   * [🎞 Méthodologie](recon/methodologie.md)
   * [🪖 Subdomains](recon/subdomains.md)
   * [⚡ Fuzzing](recon/fuzzing.md)
-  * [☄ Nmap](recon/nmap/README.md)
-    * [Templates](recon/nmap/templates.md)
+  * [☄ Nmap](recon/nmap.md)
