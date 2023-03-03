@@ -8,6 +8,8 @@ Ecrire ici la methodo Etape par Etape.
 
 {% embed url="https://book.hacktricks.xyz/generic-methodologies-and-resources/pentesting-methodology" %}
 
+{% embed url="https://www.ired.team/" %}
+
 {% embed url="https://github.com/payloadbox/xss-payload-list" %}
 
 {% embed url="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/README.md" %}
