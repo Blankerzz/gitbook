@@ -7,4 +7,5 @@
 * [BURP / ZAP Shortucts](burp-zap-shortucts.md)
 * [Encodage / Desobfucation](encodage-desobfucation.md)
 * [MySQL / SQLI](mysql-sqli.md)
-* [SQLMap](sqlmap.md)
+* [SQLMap](sqlmap/README.md)
+  * [Tamper-Scripts](sqlmap/tamper-scripts.md)
