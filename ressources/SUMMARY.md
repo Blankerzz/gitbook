@@ -17,6 +17,7 @@
 * [Windows attacks & Defense](windows-attacks-and-defense.md)
 * [Introduction to Active Directory](introduction-to-active-directory/README.md)
   * [Active Directory](introduction-to-active-directory/active-directory/README.md)
-    * [Groups](introduction-to-active-directory/active-directory/groups.md)
+    * [Groups](introduction-to-active-directory/active-directory/groups/README.md)
+      * [Built-in AD Groups](introduction-to-active-directory/active-directory/groups/built-in-ad-groups.md)
     * [Kerberos](introduction-to-active-directory/active-directory/kerberos.md)
     * [NTLM](introduction-to-active-directory/active-directory/ntlm.md)
