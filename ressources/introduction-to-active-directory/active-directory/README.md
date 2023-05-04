@@ -101,3 +101,7 @@ INLANEFREIGHT.LOCAL/
 
 **Leaf Object :**  Cannot contain any other object within them ( users, contacts , printers, computers).
 
+**Trusts :** used to etablish **forest-forest**  or **domain-domain**  authentication.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+

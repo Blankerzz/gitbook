@@ -16,4 +16,5 @@
 * [Login Brute Frocing](login-brute-frocing.md)
 * [Windows attacks & Defense](windows-attacks-and-defense.md)
 * [Introduction to Active Directory](introduction-to-active-directory/README.md)
-  * [Active Directory](introduction-to-active-directory/active-directory.md)
+  * [Active Directory](introduction-to-active-directory/active-directory/README.md)
+    * [Kerberos](introduction-to-active-directory/active-directory/kerberos.md)
