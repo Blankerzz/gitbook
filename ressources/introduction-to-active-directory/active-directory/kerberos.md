@@ -13,4 +13,4 @@ Kerberos is a stateless authentication protocol based on tickets instead of tran
 | 4. The TGS is encrypted with the NTLM password hash of the service or computer account in whose context the service instance is running and is delivered to the user in the TGS\_REP.                                   |
 | 5. The user presents the TGS to the service, and if it is valid, the user is permitted to connect to the resource (AP\_REQ).                                                                                            |
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
