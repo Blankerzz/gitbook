@@ -64,3 +64,14 @@ Copy-GPO -SourceName "Logon Banner" -TargetName "Security Analysts Control"
 New-GPLink -Name "Security Analysts Control" -Target "ou=Security Analysts,ou=IT,OU=HQ-NYC,OU=Employees,OU=Corp,dc=INLANEFREIGHT,dc=LOCAL" -LinkEnabled Yes
 ```
 
+**Add a Remote Computer to a Domain :**
+
+```powershell
+Add-Computer -ComputerName ACADEMY-IAD-W10 -LocalCredential ACADEMY-IAD-W10\image -DomainName INLANEFREIGHT.LOCAL -Credential INLANEFREIGHT\htb-student_adm -Restart
+```
+
+**Check OU Membership of a Host :**&#x20;
+
+```powershell
+PGet-ADComputer -Identity "ACADEMY-IAD-W10" -Properties * | select CN,CanonicalName,IPv4Address
+```
