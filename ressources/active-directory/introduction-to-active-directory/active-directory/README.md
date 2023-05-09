@@ -103,5 +103,5 @@ INLANEFREIGHT.LOCAL/
 
 **Trusts :** used to etablish **forest-forest**  or **domain-domain**  authentication.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
