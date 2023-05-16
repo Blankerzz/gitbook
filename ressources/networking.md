@@ -44,12 +44,20 @@
 
 * Tree => The Central node (root) connects to multiple downstream nodes in a hierarchical manner.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Tree</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Tree</p></figcaption></figure>
 
 * Hybrid => Combine elements of different network topologies to leverage their respective advantages offering redundancy and hierarchical architecture.&#x20;
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption><p>Hybrid</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Hybrid</p></figcaption></figure>
 
 * Daisy Chain => Each node is connect to the next one, forming a sequential network.&#x20;
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Daisy Chain</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Daisy Chain</p></figcaption></figure>
+
+**Forward Proxy :**  When a client makes a requesti to a computer and that computer carriers out the request => Intermediaire.
+
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Forward Proxy</p></figcaption></figure>
+
+**Reverse Proxy :** Instead of filtering outgoing request it filters incoming ones. The moast common goal with a Reverse Proxy, is to listen on an adress and forward it to a closed-off network.&#x20;
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
