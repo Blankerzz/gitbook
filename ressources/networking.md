@@ -40,24 +40,57 @@
 
 * Mesh => Decentralized networks where each node connects directly to multipe neighboring nodes, creating a redundant and resilient network structure.
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption><p>Mesh </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Mesh </p></figcaption></figure>
 
 * Tree => The Central node (root) connects to multiple downstream nodes in a hierarchical manner.
 
-<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Tree</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Tree</p></figcaption></figure>
 
 * Hybrid => Combine elements of different network topologies to leverage their respective advantages offering redundancy and hierarchical architecture.&#x20;
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Hybrid</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Hybrid</p></figcaption></figure>
 
 * Daisy Chain => Each node is connect to the next one, forming a sequential network.&#x20;
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Daisy Chain</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Daisy Chain</p></figcaption></figure>
 
 **Forward Proxy :**  When a client makes a requesti to a computer and that computer carriers out the request => Intermediaire.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>Forward Proxy</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Forward Proxy</p></figcaption></figure>
 
 **Reverse Proxy :** Instead of filtering outgoing request it filters incoming ones. The moast common goal with a Reverse Proxy, is to listen on an adress and forward it to a closed-off network.&#x20;
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Reverse Proxy</p></figcaption></figure>
+
+### **Networking Models**&#x20;
+
+**PDU =>** Protocol Data Unit&#x20;
+
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>OSI relations </p></figcaption></figure>
+
+**Application :** Controls the input and output of data and provides the application functions.&#x20;
+
+**Presentation :** Transfert the system-dependent presentation of data into a form independent of the application.&#x20;
+
+**Session :** Controls the logical connection between two systems and prevents, for exemple, connection breakdowns or other problems.&#x20;
+
+**Transport :** Used for end-to-end control of the transferred data. Can detect and avoid congestion situations and segment data.&#x20;
+
+**Network :** Connections are etablished in circuit-switched networks, and data packets are forwarded in packet-switched networks. Data is transmitted over the entire network from to the receiver.&#x20;
+
+**Data Link :** The Central task of the layer 2 is to enable reliable and error-free transmissions on the respective medium. For the purpose, the bitsreams from layer 1 are divided into blocks or frames.
+
+**Physical :** Electrical Signals, opticals signals or electromagnetic waves. Through layer1, the transmission takes place on wired or wireless transmission lines.
+
+
+
+### The TCP/IP Model :&#x20;
+
+The Most important tasks of TCP/IP are :&#x20;
+
+* **Logical Addressing  => IP**
+* **Routing => IP**&#x20;
+* **Error & Control Flow  => TCP**
+* **Application Support  => TCP**
+* **Name Resolution => DNS**
+
