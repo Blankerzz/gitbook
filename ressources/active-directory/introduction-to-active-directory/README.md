@@ -2,7 +2,7 @@
 
 ### Basic Commands Needed
 
-`xfreerdp /v:<IP> /u:<User> /p:<Password>`\
+`xfreerdp /v:<IP> /u:<User> /p:<Password> /dynamic-resolution`\
 `ping <IP>`
 
 ***
