@@ -14,6 +14,8 @@ Ecrire ici la methodo Etape par Etape.
 
 {% embed url="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/README.md" %}
 
+{% embed url="https://attack.mitre.org" %}
+
 <figure><img src="../.gitbook/assets/ARWAD_Methodology.jpg" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/0 vbx0m8SLA9Yjns4N.webp" alt=""><figcaption></figcaption></figure>
