@@ -1,6 +1,20 @@
 # Pivotement
 
 ```
+sudo useradd jojo 
+
+echo "jojo:jojo" | sudo chpasswd
+
+sudo usermod -aG sudo jojo
+
+
+sudo sed -i '/AllowUsers/ s/$/ jojo/' /etc/ssh/sshd_config
+
+
+sudo restart ssh
+```
+
+```
 Ajout d'un compte pour maintenir son accès au système :
 root@Invictus-Bank:/home/bthomson/Program# /usr/sbin/adduser clehen38
 Adding user `clehen38' ...
