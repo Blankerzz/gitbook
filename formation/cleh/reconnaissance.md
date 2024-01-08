@@ -12,7 +12,7 @@ eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9001
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 IDENTIFICATION DES OS&#x20;
 
