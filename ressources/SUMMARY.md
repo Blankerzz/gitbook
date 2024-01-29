@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Asset Discovery](README.md)
+* [Shells & Payloads](shells-and-payloads.md)
 * [nmap](nmap.md)
 * [Fuzzing](fuzzing.md)
 * [cURL](curl.md)
