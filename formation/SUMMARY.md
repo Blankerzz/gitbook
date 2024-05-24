@@ -50,3 +50,9 @@
 * [SSH machine distante](cleh/ssh-machine-distante.md)
 * [Web App](cleh/web-app.md)
 * [ZIP Crack](cleh/zip-crack.md)
+
+## OSCP Preparation
+
+* [Ressources](oscp-preparation/ressources.md)
+* [Basic Linux Privilege Escalation](oscp-preparation/basic-linux-privilege-escalation.md)
+* [Windows Privilege Escalation](oscp-preparation/windows-privilege-escalation.md)
