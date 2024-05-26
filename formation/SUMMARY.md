@@ -16,6 +16,7 @@
     * [cURL Cheat Sheet](hackthebox/hypertext-transfer-protocol-http/curl-cheat-sheet.md)
   * [Machines](hackthebox/machines/README.md)
     * [Precious](hackthebox/machines/precious.md)
+    * [BoardLight](hackthebox/machines/boardlight.md)
 * [Pentesterlab](<README (1).md>)
   * [Java](pentesterlab/java/README.md)
     * [Spring - ObjectInputStream](pentesterlab/java/spring-objectinputstream.md)
