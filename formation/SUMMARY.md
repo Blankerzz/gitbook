@@ -1,6 +1,22 @@
 # Table of contents
 
-* [Pentesterlab](README.md)
+## OSCP Preparation
+
+* [Ressources](README.md)
+* [Basic Linux Privilege Escalation](oscp-preparation/basic-linux-privilege-escalation.md)
+* [Windows Privilege Escalation](oscp-preparation/windows-privilege-escalation.md)
+
+***
+
+* [HackTheBox](hackthebox/README.md)
+  * [Forteresses](hackthebox/forteresses/README.md)
+    * [AWS](hackthebox/forteresses/aws/README.md)
+      * [Early Access](hackthebox/forteresses/aws/early-access.md)
+  * [HyperText Transfer Protocol (HTTP)](hackthebox/hypertext-transfer-protocol-http/README.md)
+    * [cURL Cheat Sheet](hackthebox/hypertext-transfer-protocol-http/curl-cheat-sheet.md)
+  * [Machines](hackthebox/machines/README.md)
+    * [Precious](hackthebox/machines/precious.md)
+* [Pentesterlab](<README (1).md>)
   * [Java](pentesterlab/java/README.md)
     * [Spring - ObjectInputStream](pentesterlab/java/spring-objectinputstream.md)
   * [Tomcat](pentesterlab/tomcat/README.md)
@@ -30,17 +46,3 @@
     * [Pickle Code Execution - Python](pentesterlab/pickle-code-execution-python.md)
   * [JSON WEB TOKEN (JWT)](pentesterlab/json-web-token-jwt/README.md)
     * [JWT - Weak Signature](pentesterlab/json-web-token.md)
-* [HackTheBox](hackthebox/README.md)
-  * [Forteresses](hackthebox/forteresses/README.md)
-    * [AWS](hackthebox/forteresses/aws/README.md)
-      * [Early Access](hackthebox/forteresses/aws/early-access.md)
-  * [HyperText Transfer Protocol (HTTP)](hackthebox/hypertext-transfer-protocol-http/README.md)
-    * [cURL Cheat Sheet](hackthebox/hypertext-transfer-protocol-http/curl-cheat-sheet.md)
-  * [Machines](hackthebox/machines/README.md)
-    * [Precious](hackthebox/machines/precious.md)
-
-## OSCP Preparation
-
-* [Ressources](oscp-preparation/ressources.md)
-* [Basic Linux Privilege Escalation](oscp-preparation/basic-linux-privilege-escalation.md)
-* [Windows Privilege Escalation](oscp-preparation/windows-privilege-escalation.md)
