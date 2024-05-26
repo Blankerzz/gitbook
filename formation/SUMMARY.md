@@ -12,8 +12,6 @@
   * [Forteresses](hackthebox/forteresses/README.md)
     * [AWS](hackthebox/forteresses/aws/README.md)
       * [Early Access](hackthebox/forteresses/aws/early-access.md)
-  * [HyperText Transfer Protocol (HTTP)](hackthebox/hypertext-transfer-protocol-http/README.md)
-    * [cURL Cheat Sheet](hackthebox/hypertext-transfer-protocol-http/curl-cheat-sheet.md)
   * [Machines](hackthebox/machines/README.md)
     * [Precious](hackthebox/machines/precious.md)
     * [BoardLight](hackthebox/machines/boardlight.md)
