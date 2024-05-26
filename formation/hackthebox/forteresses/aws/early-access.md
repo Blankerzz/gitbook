@@ -52,7 +52,7 @@ echo "10.13.37.15 amzcorp.local dc01.amzcorp.local" | sudo tee -a /etc/hosts
 
 En essayant d'accéder au site Web à partir du navigateur, nous constatons qu'il renvoie une erreur car il ne sait pas où résoudre en utilisant le domaine jobs.amzcorp.local
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Ajoutons le au fichier host
 
@@ -62,23 +62,23 @@ echo "10.13.37.15 jobs.amzcorp.local" | sudo tee -a /etc/hosts
 
 nous arrivons sur une page de login ou l'on peut créer un compte !&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Après avoir enregistré l'utilisateur, nous pouvons nous connecter et accéder à un panneau AWS où nous ne pouvons vraiment pas faire grand-chose..
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 En regardant le code source, nous constatons qu'il charge un script .js appelé app.js
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Essayons de le désobfusquer avec [https://lelinhtinh.github.io/de4js/](https://lelinhtinh.github.io/de4js/)
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 ce qui nous donne :&#x20;
 
