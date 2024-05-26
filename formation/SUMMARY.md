@@ -39,18 +39,6 @@
   * [Machines](hackthebox/machines/README.md)
     * [Precious](hackthebox/machines/precious.md)
 
-## CLEH
-
-* [Reconnaissance](cleh/reconnaissance.md)
-* [Identification des Vuln](cleh/identification-des-vuln.md)
-* [Exploitation vsFTPd](cleh/exploitation-vsftpd.md)
-* [Privilege Esc](cleh/privilege-esc.md)
-* [Pivotement](cleh/pivotement.md)
-* [FTP](cleh/ftp.md)
-* [SSH machine distante](cleh/ssh-machine-distante.md)
-* [Web App](cleh/web-app.md)
-* [ZIP Crack](cleh/zip-crack.md)
-
 ## OSCP Preparation
 
 * [Ressources](oscp-preparation/ressources.md)
