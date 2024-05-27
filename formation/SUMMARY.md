@@ -15,7 +15,7 @@
   * [Machines](hackthebox/machines/README.md)
     * [Precious](hackthebox/machines/precious.md)
     * [BoardLight](hackthebox/machines/boardlight.md)
-    * [MagicGardens](hackthebox/machines/magicgardens.md)
+    * [Headless](hackthebox/machines/headless.md)
 * [Pentesterlab](<README (1).md>)
   * [Java](pentesterlab/java/README.md)
     * [Spring - ObjectInputStream](pentesterlab/java/spring-objectinputstream.md)
