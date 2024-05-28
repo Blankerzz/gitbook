@@ -1,3 +1,4 @@
 # Table of contents
 
-* [🎞️ Méthodologie](README.md)
+* [🎞️ GUIDES](README.md)
+* [🔗 Worflow](worflow.md)
