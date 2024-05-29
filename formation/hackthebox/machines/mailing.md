@@ -1,5 +1,7 @@
 ---
-description: Windows | easy | IIS server | LFI | hMailServer | CVE-2024-21413 Outlook
+description: >-
+  Windows | easy | IIS server | LFI | hMailServer | CVE-2024-21413 Outlook |
+  2024-21413 Libre Office
 ---
 
 # Mailing
