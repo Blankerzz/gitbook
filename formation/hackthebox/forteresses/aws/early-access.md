@@ -52,7 +52,7 @@ echo "10.13.37.15 amzcorp.local dc01.amzcorp.local" | sudo tee -a /etc/hosts
 
 En essayant d'accéder au site Web à partir du navigateur, nous constatons qu'il renvoie une erreur car il ne sait pas où résoudre en utilisant le domaine jobs.amzcorp.local
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ajoutons le au fichier host
 
@@ -70,15 +70,15 @@ Après avoir enregistré l'utilisateur, nous pouvons nous connecter et accéder 
 
 <figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 En regardant le code source, nous constatons qu'il charge un script .js appelé app.js
 
-<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Essayons de le désobfusquer avec [https://lelinhtinh.github.io/de4js/](https://lelinhtinh.github.io/de4js/)
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ce qui nous donne :&#x20;
 
@@ -796,7 +796,7 @@ for uuid in range(0,1000):
         sys.exit(0)
 ```
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

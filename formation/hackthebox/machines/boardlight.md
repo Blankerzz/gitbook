@@ -14,13 +14,13 @@ description: >-
 nmap 10.129.11.23 -sV -sC 
 ```
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Lets Check the Http server.&#x20;
 
 We can see the domain name in the front page :&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Lets update the Hosts File&#x20;
 
@@ -36,7 +36,7 @@ no usefull directories was found on board.htb with gobuster  so lets try to find
 ffuf -w /opt/useful/SecLists/Discovery/DNS/bitquark-subdomains-top100000.txt:FUZZ -u http://board.htb:80/ -H 'Host: FUZZ.board.htb' -mc 200 -fw 6243
 ```
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Initial Foothold
 
@@ -46,7 +46,7 @@ so lets add this vhost to our hosts file too .&#x20;
 echo "10.129.11.23 crm.board.htb" | sudo tee -a /etc/hosts
 ```
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 First things first lets try to enter the default credentials of the version 17.0.0 (admin/admin)
 
@@ -96,7 +96,7 @@ looking for suid who can be exploited for the privilege escalation we can see wi
 find / -perm -4000 -type f 2>/dev/null
 ```
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 we can find the following exploit  : [https://www.exploit-db.com/exploits/51180](https://www.exploit-db.com/exploits/51180)
 
