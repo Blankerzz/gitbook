@@ -18,6 +18,7 @@
     * [BoardLight](hackthebox/machines/boardlight.md)
     * [Headless](hackthebox/machines/headless.md)
     * [Perfection](hackthebox/machines/perfection.md)
+    * [Usage](hackthebox/machines/usage.md)
 * [Pentesterlab](<README (1).md>)
   * [Java](pentesterlab/java/README.md)
     * [Spring - ObjectInputStream](pentesterlab/java/spring-objectinputstream.md)
