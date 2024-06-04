@@ -4,6 +4,8 @@ General Reco : [https://kevsec.fr/resources](https://kevsec.fr/resources)
 
 kali terminal : Termininator [https://launchpad.net/terminator](https://launchpad.net/terminator)
 
+&#x20;privesc : [https://juggernaut-sec.com/](https://juggernaut-sec.com/cve-2022-26923-certifried/)
+
 sshuttle  ; [https://github.com/sshuttle/sshuttle](https://github.com/sshuttle/sshuttle)
 
 ttys : [https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
