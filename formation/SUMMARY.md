@@ -13,6 +13,7 @@
     * [AWS](hackthebox/forteresses/aws/README.md)
       * [Early Access](hackthebox/forteresses/aws/early-access.md)
   * [Machines](hackthebox/machines/README.md)
+    * [Blurry](hackthebox/machines/blurry.md)
     * [Runner](hackthebox/machines/runner.md)
     * [Mailing](hackthebox/machines/mailing.md)
     * [Precious](hackthebox/machines/precious.md)
