@@ -14,6 +14,13 @@ clef api : HGLEWII6D6U1Q245DJQL
 
 <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
+```
+pip install clearml-agent
+clearml-agent init 
+clearml-agent daemon --queue default
+
+```
+
 ```python
 import os
 from clearml import Task
