@@ -2,7 +2,8 @@
 
 ## OSCP Preparation
 
-* [Ressources](README.md)
+* [Information Gathering](README.md)
+* [Ressources](<README (1).md>)
 * [Basic Linux Privilege Escalation](oscp-preparation/basic-linux-privilege-escalation.md)
 * [Windows Privilege Escalation](oscp-preparation/windows-privilege-escalation.md)
 
@@ -21,7 +22,7 @@
     * [Headless](hackthebox/machines/headless.md)
     * [Perfection](hackthebox/machines/perfection.md)
     * [Usage](hackthebox/machines/usage.md)
-* [Pentesterlab](<README (1).md>)
+* [Pentesterlab](<README (1) (1).md>)
   * [Java](pentesterlab/java/README.md)
     * [Spring - ObjectInputStream](pentesterlab/java/spring-objectinputstream.md)
   * [Tomcat](pentesterlab/tomcat/README.md)
