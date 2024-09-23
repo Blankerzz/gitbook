@@ -38,3 +38,4 @@
 | `sudo mount -t nfs 10.129.2.12:/tmp /mnt`                                           | Mount an NFS share locally                            |
 | `tmux -S /shareds new -s debugsess`                                                 | Created a shared `tmux` session socket                |
 | `./lynis audit system`                                                              | Perform a system audit with `Lynis`                   |
+| find /root/thefinalflag.txt -exec cat {} ;                                          | when Find perm to read file                           |
