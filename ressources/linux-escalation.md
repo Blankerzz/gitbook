@@ -3,6 +3,7 @@
 | **Command**                                                                         | **Description**                                       |
 | ----------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | `ssh htb-student@<target IP>`                                                       | SSH to lab target                                     |
+| find / -perm -u=s 2>/dev/null                                                       | list perm                                             |
 |  `ps aux \| grep root`                                                              | See processes running as root                         |
 | `ps au`                                                                             | See logged in users                                   |
 | `ls /home`                                                                          | View user home directories                            |
