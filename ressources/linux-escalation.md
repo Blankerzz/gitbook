@@ -41,3 +41,5 @@
 | find /root/thefinalflag.txt -exec cat {} ;                                          | when Find perm to read file                           |
 | <pre><code>/usr/bin/find . -exec /bin/sh -p \; -quit
 </code></pre>                  | privesc with Find perm                                |
+| -t "bash --noprofile"                                                               | bypass profil restrction SSH                          |
+| PATH=/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin                   | binaries path default                                 |
